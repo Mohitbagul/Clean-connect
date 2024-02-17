@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    margin-top: 40px;
+    overflow: hidden;
+    padding: 0px;
+    background-color: brown;
+}
+
+.video-container {
+    position: absolute;
+    width: 100%; /* Zoom in on the video */
+    height: 100%;
+    top: 10%; /*Move the video up and to the left*/
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    transform: scale(2); /* Scale the video */
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.events_display{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.card{
+    padding: 30px;
+}
